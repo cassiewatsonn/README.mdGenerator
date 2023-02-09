@@ -6,16 +6,18 @@ function renderLicenseBadge(license) {}
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT'){
-    return `
-    [MIT License Link](https://choosealicense.com/licenses/mit/)`
+    let licenseMIT = `[MIT License Link](https://choosealicense.com/licenses/mit)`
+    return licenseMIT;
+    // return `
+    // [MIT License Link](https://choosealicense.com/licenses/mit/)`
   }
   if (license === 'GNU'){
     return `
-    [GNU License Link](https://www.gnu.org/licenses/gpl-3.0.html)`
+    ![GNU License Link](https://www.gnu.org/licenses/gpl-3.0.html)`
   }
   if (license === 'Apache'){
     return ` 
-    [Apache License Link](https://www.apache.org/licenses/LICENSE-2.0)`
+    ![Apache License Link](https://www.apache.org/licenses/LICENSE-2.0)`
   }
 }
 

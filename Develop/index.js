@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
   
 
         fs.writeFile(fileName, data, (err) => 
-        err ? console.log(err): "Creating your README.md file!")
+        err ? console.log(err): console.log("Creating your README.md file!"))
     
 }
 
@@ -78,7 +78,7 @@ function init() {
     inquirer.prompt(questions)
     .then(response =>{
         let readText = utils(response)
-        writeToFile('README.md', readText)
+        writeToFile('sampleREADME.md', readText)
     }) 
 }
 
