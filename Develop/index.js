@@ -33,8 +33,8 @@ const questions = [
 
     {
         type: 'list',
-        message: 'Choose a licence',
-        name: 'licence',
+        message: 'Choose a license',
+        name: 'license',
         choices: ['MIT', 'GNU', 'Apache']
       },
 
