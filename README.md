@@ -15,15 +15,20 @@ This command-line application generates a professional README.md from a users in
 Once successfully installed, open the terminal from the index.js file. When in the terminal input 'node index.js'. This will prompt your first question. Begin filling out all of the questions that you are prompted for (ensure to hit enter after you complete each question). Once you have completed all of the questions you will receive a message saying "Creating your README.md file!". Look at your files and you should see that a new README.md file has arrived. Click on the file and your README is ready! 
 
 
-## ![README.mdGenerator](./)
+## ![README.mdGenerator](./Develop/images/screenshot1.png)
+![](./Develop/images/screenshot2.png)
 
 ## Link
 
 https://github.com/cassiewatsonn/README.mdGenerator 
 
+## Video Link
+
+https://drive.google.com/file/d/1Ga10zyoWDSp54f_XdS19OsVCnPYGDY0v/view 
+
 ## Credits 
 
-Thank you to my awesome tutor Eric Sayer and my study partner Rebecca Lawrence! 
+Thank you to my tutor Eric Sayer and my study partner Rebecca Lawrence! 
 
 ## License
 
